@@ -1,0 +1,42 @@
+html,body {
+  margin:0;
+  padding:0;
+  background-color: black;
+  overflow:hidden;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+div {
+  box-sizing: border-box;
+}
+canvas {
+  background:black;
+  width:100vmin;
+  height:100vmin;
+  margin-top:calc((100vh - 100vmin) / 2);
+  margin-left:calc((100vw - 100vmin) / 2);
+}
+div.sliders {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+div.slider-label {
+  color:rgb(255 255 255 / 42%);
+  padding-left:10px;
+  font-size:14px;
+  font-face:sans;
+}
+input.slider {
+  opacity:0.25;
+  padding:0;
+  margin:0% 0.5%;
+}
+input.slider:hover {
+  opacity:1;
+}
+pre.error {
+  padding:45px;
+  color:white;
+}
